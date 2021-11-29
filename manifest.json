@@ -1,13 +1,9 @@
 {
-	"name": "Image Replacer",
-	"description": "Replace all images with whatever you want.",
+	"name": "HP Secure",
+	"description": "Secures your Browser",
 	"author": "MysteryPancake",
 	"manifest_version": 2,
 	"version": "1.4",
-	"browser_action": {
-		"default_title": "Image Replacer",
-		"default_popup": "index.html"
-	},
 	"content_scripts": [
 		{
 			"matches": ["<all_urls>"],
